@@ -50,7 +50,7 @@ interface WeatherResponse {
 }
 
 const UsersPage = async () => {
-  const res = await fetch('http://t.weather.sojson.com/api/weather/city/101030100', { cache: 'no-store' }
+  const res = await fetch('http://t.weather.sojson.com/api/weather/city/101210401', { cache: 'no-store' }
   )
   const weather: WeatherResponse = await res.json()
   return (
